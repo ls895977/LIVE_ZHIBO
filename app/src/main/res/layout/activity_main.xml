@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.kiwi.phonelive.custom.MyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:canScroll="false" />
+
+    <FrameLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <com.kiwi.phonelive.custom.TabButtonGroup
+            android:id="@+id/tab_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <com.kiwi.phonelive.custom.TabButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tbn_checked="true"
+                app:tbn_icon_size="18dp"
+                android:paddingTop="10dp"
+                app:tbn_selected_icon="@mipmap/icon_main_home_1"
+                app:tbn_text_color="#333"
+                app:tbn_text_size="11sp"
+                app:tbn_unselected_icon="@mipmap/icon_main_home_0" />
+
+            <com.kiwi.phonelive.custom.TabButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:layout_weight="1"
+                app:tbn_icon_size="18dp"
+                android:paddingTop="10dp"
+                app:tbn_selected_icon="@mipmap/icon_main_mov_1"
+                app:tbn_text_color="#333"
+                app:tbn_text_size="11sp"
+                app:tbn_unselected_icon="@mipmap/icon_main_mov_0" />
+
+
+            <com.kiwi.phonelive.custom.TabButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tbn_icon_size="18dp"
+                app:tbn_selected_icon="@mipmap/icon_main_message_1"
+                app:tbn_text_color="#333"
+                app:tbn_text_size="11sp"
+                android:paddingTop="10dp"
+                app:tbn_unselected_icon="@mipmap/icon_main_message_0" />
+
+            <com.kiwi.phonelive.custom.TabButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tbn_icon_size="18dp"
+                app:tbn_selected_icon="@mipmap/icon_main_me_1"
+                app:tbn_text_color="#333"
+                app:tbn_text_size="11sp"
+                android:paddingTop="10dp"
+                app:tbn_unselected_icon="@mipmap/icon_main_me_0" />
+
+        </com.kiwi.phonelive.custom.TabButtonGroup>
+
+        <ImageView
+            android:id="@+id/btn_start"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:onClick="mainClick"
+            android:src="@mipmap/icon_main_start" />
+
+        <TextView
+            android:id="@+id/main_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_red_point"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:minWidth="14dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+</RelativeLayout>

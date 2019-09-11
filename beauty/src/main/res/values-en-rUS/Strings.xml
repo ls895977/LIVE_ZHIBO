@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="beauty">Beautify</string>
+    <string name="beauty_shape">Beautify_shape</string>
+    <string name="meng">meng</string>
+    <string name="filter">Filter</string>
+    <string name="shake">shake</string>
+    <string name="haha">haha</string>
+    <string name="haha_1">haha_1</string>
+    <string name="haha_4">haha_4</string>
+    <string name="haha_3">haha_3</string>
+    <string name="haha_2">haha_2</string>
+    <string name="beauty_meibai">Skin whitening</string>
+    <string name="beauty_mopi">Blemish removal </string>
+    <string name="beauty_baohe">saturated</string>
+    <string name="beauty_fengnen">Pink</string>
+    <string name="beauty_hongrun">rosy</string>
+    <string name="beauty_big_eye">big eyes</string>
+    <string name="beauty_face">Beautify_face</string>
+    <string name="tiezhi_download_failed">tiezhi_download_failed</string>
+</resources>

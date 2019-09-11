@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:paddingTop="19dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/custom"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:onClick="backClick"
+                android:padding="9dp"
+                android:src="@mipmap/icon_back"
+                android:tint="@color/textColor" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_custom_service_1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/icon_service_2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"
+                android:text="@string/custom"
+                android:textColor="#333333"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:visibility="gone"
+            android:background="#dcdcdc"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_custom_service_2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="22dp"
+            android:visibility="gone"
+            android:paddingRight="22dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/icon_service_2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"
+                android:text="客服2"
+                android:textColor="#333333"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="#dcdcdc"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_custom_service_3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="22dp"
+            android:visibility="gone"
+            android:paddingRight="22dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/icon_service_3" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"
+                android:text="客服3"
+                android:textColor="#333333"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="#dcdcdc"></View>
+
+    </LinearLayout>
+</LinearLayout>
