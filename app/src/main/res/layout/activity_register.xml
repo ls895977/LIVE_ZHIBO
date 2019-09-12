@@ -44,7 +44,7 @@
                 android:maxLength="11"
                 android:textColor="@color/textColor"
                 android:textColorHint="@color/gray3"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
 
@@ -73,7 +73,7 @@
                 android:maxLength="11"
                 android:textColor="@color/textColor"
                 android:textColorHint="@color/gray3"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/btn_code"
@@ -84,7 +84,7 @@
                 android:onClick="registerClick"
                 android:text="@string/reg_get_code"
                 android:textColor="@color/reg_btn_code"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
         <View style="@style/line2" />
@@ -111,7 +111,7 @@
                 android:maxLength="11"
                 android:textColor="@color/textColor"
                 android:textColorHint="@color/gray3"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
 
@@ -139,7 +139,7 @@
                 android:maxLength="11"
                 android:textColor="@color/textColor"
                 android:textColorHint="@color/gray3"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
 
@@ -159,5 +159,5 @@
         android:onClick="registerClick"
         android:text="@string/reg_register_and_login"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
 </LinearLayout>
